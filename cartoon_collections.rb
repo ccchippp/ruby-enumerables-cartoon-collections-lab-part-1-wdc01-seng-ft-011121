@@ -11,7 +11,9 @@ def list_dwarves(array)
   # Print a numbered list of each element
   array.each do |element|
     count = 1
-    puts "#{count}. #{element}"
-    count += 1
+    while count > 0 do
+      puts "#{count}. #{element}"
+      count += 1
+    end
   end
 end
