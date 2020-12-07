@@ -13,9 +13,9 @@ def list_dwarves(array)
 
   array.count do |element|
     if counter.is_a? Integer
-    puts "#{count}. #{element}"
+    puts "#{counter}. #{element}"
+    counter += 1
   end
-      counter += 1
 end
 end
 
