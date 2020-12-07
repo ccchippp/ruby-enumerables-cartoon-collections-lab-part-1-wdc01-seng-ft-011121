@@ -12,7 +12,16 @@ def list_dwarves(array)
   counter = 1
 
   array.count do |element|
+    if counter.is_a? Integer
     puts "#{count}. #{element}"
     counter += 1
   end
 end
+
+total = 0
+[1,2,3,4].each do |num|
+  if num.even?
+    total += 1
+  end
+end
+total
