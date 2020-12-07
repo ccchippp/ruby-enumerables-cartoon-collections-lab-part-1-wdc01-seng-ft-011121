@@ -17,6 +17,7 @@ def list_dwarves(array)
     counter += 1
   end
 end
+end
 
 total = 0
 [1,2,3,4].each do |num|
